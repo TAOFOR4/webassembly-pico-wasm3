@@ -1,11 +1,14 @@
-# webassembly-pico
-This is a experiment for trying webassembly on raspberry pico.
+# webassembly-pico-wasm3
+This is a experiment for trying webassembly on raspberry pico using wasm3.
 
 
 ## Build for Raspberry Pi Pico
 
 
 ### C
+- Clone `wasm3` from [here](https://github.com/wasm3/wasm3/tree/main). Set `WAMR_PATH` to this path in your user profile.
+- Install `wasi-sdk` as mentioned [here](https://github.com/WebAssembly/wasi-sdk).
+- Set WASI_SDK_PATH `export WASI_SDK_PATH=/opt/wasi-sdk/wasi-sdk-20.0`
 - Download [Raspberry Pi Pico SDK](https://github.com/raspberrypi/pico-sdk) and install its dependencies
 - `export PICO_SDK_PATH=/path/to/sdk`
 - `cd resource/webassembly-c`
