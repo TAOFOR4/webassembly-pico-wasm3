@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "unistd.h": "c",
+        "hello_wasm.h": "c",
+        "stdio.h": "c",
+        "string.h": "c"
+    }
+}

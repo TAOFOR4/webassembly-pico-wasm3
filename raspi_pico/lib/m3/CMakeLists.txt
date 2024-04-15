@@ -1,7 +1,7 @@
 # FIXME: should be including source/CMakeLists.txt, but Pico SDK 
 #        compiler doesn't like -std=c99 defined there
 
-set(path $ENV{WASM3_PATH}WASM3_PATH/source/)
+set(path $ENV{WASM3_PATH}/source/)
 
 set(sources
     "${path}m3_api_libc.c"

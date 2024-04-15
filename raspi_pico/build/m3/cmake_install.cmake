@@ -1,4 +1,4 @@
-# Install script for directory: /home/tao/Desktop/wasm3/wasm3/platforms/raspi_pico/lib/m3
+# Install script for directory: /home/tao/Desktop/webassembly-pico/raspi_pico/lib/m3
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

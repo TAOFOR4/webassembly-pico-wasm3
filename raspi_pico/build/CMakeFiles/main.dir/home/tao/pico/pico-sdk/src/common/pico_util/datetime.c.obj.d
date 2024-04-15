@@ -11,9 +11,9 @@ CMakeFiles/main.dir/home/tao/pico/pico-sdk/src/common/pico_util/datetime.c.obj: 
  /usr/include/newlib/sys/features.h \
  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
- /home/tao/Desktop/wasm3/wasm3/platforms/raspi_pico/build/generated/pico_base/pico/version.h \
+ /home/tao/Desktop/webassembly-pico/raspi_pico/build/generated/pico_base/pico/version.h \
  /home/tao/pico/pico-sdk/src/common/pico_base/include/pico/config.h \
- /home/tao/Desktop/wasm3/wasm3/platforms/raspi_pico/build/generated/pico_base/pico/config_autogen.h \
+ /home/tao/Desktop/webassembly-pico/raspi_pico/build/generated/pico_base/pico/config_autogen.h \
  /home/tao/pico/pico-sdk/src/boards/include/boards/pico.h \
  /home/tao/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
  /home/tao/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \

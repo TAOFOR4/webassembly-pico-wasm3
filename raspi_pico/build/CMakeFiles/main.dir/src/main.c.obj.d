@@ -1,5 +1,5 @@
 CMakeFiles/main.dir/src/main.c.obj: \
- /home/tao/Desktop/wasm3/wasm3/platforms/raspi_pico/src/main.c \
+ /home/tao/Desktop/webassembly-pico/raspi_pico/src/main.c \
  /home/tao/pico/pico-sdk/src/common/pico_stdlib/include/pico/stdlib.h \
  /home/tao/pico/pico-sdk/src/common/pico_base/include/pico.h \
  /home/tao/pico/pico-sdk/src/common/pico_base/include/pico/types.h \
@@ -11,9 +11,9 @@ CMakeFiles/main.dir/src/main.c.obj: \
  /usr/include/newlib/sys/features.h \
  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
- /home/tao/Desktop/wasm3/wasm3/platforms/raspi_pico/build/generated/pico_base/pico/version.h \
+ /home/tao/Desktop/webassembly-pico/raspi_pico/build/generated/pico_base/pico/version.h \
  /home/tao/pico/pico-sdk/src/common/pico_base/include/pico/config.h \
- /home/tao/Desktop/wasm3/wasm3/platforms/raspi_pico/build/generated/pico_base/pico/config_autogen.h \
+ /home/tao/Desktop/webassembly-pico/raspi_pico/build/generated/pico_base/pico/config_autogen.h \
  /home/tao/pico/pico-sdk/src/boards/include/boards/pico.h \
  /home/tao/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
  /home/tao/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
@@ -56,20 +56,20 @@ CMakeFiles/main.dir/src/main.c.obj: \
  /usr/include/newlib/sys/timespec.h /usr/include/newlib/sys/_timespec.h \
  /usr/include/newlib/sys/_pthreadtypes.h /usr/include/newlib/sys/sched.h \
  /usr/include/newlib/machine/types.h /usr/include/newlib/sys/stdio.h \
- /home/tao/Desktop/wasm3/wasm3/platforms/raspi_pico/lib/m3/../../../../source/wasm3.h \
+ /usr/include/newlib/string.h /usr/include/newlib/sys/_locale.h \
+ /usr/include/newlib/strings.h /usr/include/newlib/sys/string.h \
+ /home/tao/Desktop/wasm3/wasm3/source/wasm3.h \
  /usr/include/newlib/stdlib.h /usr/include/newlib/machine/stdlib.h \
  /usr/include/newlib/alloca.h /usr/include/newlib/inttypes.h \
- /usr/include/newlib/sys/_intsup.h /usr/include/newlib/sys/_locale.h \
- /home/tao/Desktop/wasm3/wasm3/platforms/raspi_pico/lib/m3/../../../../source/wasm3_defs.h \
- /home/tao/Desktop/wasm3/wasm3/platforms/raspi_pico/lib/m3/../../../../source/m3_env.h \
- /home/tao/Desktop/wasm3/wasm3/platforms/raspi_pico/lib/m3/../../../../source/wasm3.h \
- /home/tao/Desktop/wasm3/wasm3/platforms/raspi_pico/lib/m3/../../../../source/m3_code.h \
- /home/tao/Desktop/wasm3/wasm3/platforms/raspi_pico/lib/m3/../../../../source/m3_core.h \
- /usr/include/newlib/string.h /usr/include/newlib/strings.h \
- /usr/include/newlib/sys/string.h \
- /home/tao/Desktop/wasm3/wasm3/platforms/raspi_pico/lib/m3/../../../../source/m3_config.h \
- /home/tao/Desktop/wasm3/wasm3/platforms/raspi_pico/lib/m3/../../../../source/m3_config_platforms.h \
- /home/tao/Desktop/wasm3/wasm3/platforms/raspi_pico/lib/m3/../../../../source/m3_compile.h \
- /home/tao/Desktop/wasm3/wasm3/platforms/raspi_pico/lib/m3/../../../../source/m3_exec_defs.h \
- /home/tao/Desktop/wasm3/wasm3/platforms/raspi_pico/lib/m3/../../../../source/m3_function.h \
- /home/tao/Desktop/wasm3/wasm3/platforms/raspi_pico/lib/m3/../../../../source/extra/add.wasm.h
+ /usr/include/newlib/sys/_intsup.h \
+ /home/tao/Desktop/wasm3/wasm3/source/wasm3_defs.h \
+ /home/tao/Desktop/wasm3/wasm3/source/m3_env.h \
+ /home/tao/Desktop/wasm3/wasm3/source/wasm3.h \
+ /home/tao/Desktop/wasm3/wasm3/source/m3_code.h \
+ /home/tao/Desktop/wasm3/wasm3/source/m3_core.h \
+ /home/tao/Desktop/wasm3/wasm3/source/m3_config.h \
+ /home/tao/Desktop/wasm3/wasm3/source/m3_config_platforms.h \
+ /home/tao/Desktop/wasm3/wasm3/source/m3_compile.h \
+ /home/tao/Desktop/wasm3/wasm3/source/m3_exec_defs.h \
+ /home/tao/Desktop/wasm3/wasm3/source/m3_function.h \
+ /home/tao/Desktop/webassembly-pico/raspi_pico/src/../../resource/wasm_head_files/main_wasm.h
