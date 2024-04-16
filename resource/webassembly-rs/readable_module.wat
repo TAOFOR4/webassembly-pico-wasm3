@@ -4,4 +4,4 @@
     nop)
   (memory (;0;) 1)
   (export "memory" (memory 0))
-  (export "matrixMultiply" (func 0)))
+  (export "matrix_multiply" (func 0)))

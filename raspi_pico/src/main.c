@@ -43,7 +43,7 @@ static void run_wasm(void)
 
     IM3Function f;
     // Ensure the function name matches what's exported from your WebAssembly module
-    result = m3_FindFunction(&f, runtime, "reverseArray");
+    result = m3_FindFunction(&f, runtime, "matrixMultiply");
     if (result)
         FATAL("m3_FindFunction: %s", result);
 
@@ -88,7 +88,7 @@ static void run_wasm(void)
     //     FATAL("Array parameters out of WebAssembly memory bounds");
     // }
     // result = m3_CallV(f, baseAddr, 0, arrayLength - 1); // m3_CallV(f,1,2) 1 2 stands for the parameters
-    result = m3_CallV(f, 0, 5);
+    result = m3_CallV(f, 1, 2);
     if (result)
         FATAL("m3_Call: %s", result);
 
@@ -97,8 +97,8 @@ static void run_wasm(void)
 
     absolute_time_t end = get_absolute_time(); // end time count
 
-    // long value = *(uint64_t *)(runtime->stack);
-    // printf("Result: %ld\n", value); // result(return value of the function)
+    long value = *(uint64_t *)(runtime->stack);
+    printf("Result: %ld\n", value); // result(return value of the function)
 
     // printf("Reversed Array: ");
     // for (int i = 0; i < arrayLength; ++i)

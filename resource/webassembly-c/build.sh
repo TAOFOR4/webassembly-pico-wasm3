@@ -4,7 +4,7 @@ echo "Building WASM app..."
 $WASI_SDK_PATH/bin/clang -O3 \
     -z stack-size=4096 -Wl,--initial-memory=65536 \
     -o main.wasm main.c \
-    -Wl,--export=reverseArray \
+    -Wl,--export=matrixMultiply \
     -Wl,--strip-all -Wl,--no-entry \
     -Wl,--allow-undefined \
     -nostdlib
