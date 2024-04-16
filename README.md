@@ -42,12 +42,18 @@ ls -ls main.uf2
 
 ### Execution Time
 
+In /raspi_pico/main.c, there are some code for execution time measurement.
 ```
 absolute_time_t start = get_absolute_time(); // start time count
 
 // run your wasm program
 
 absolute_time_t end = get_absolute_time(); // end time count
+```
+
+Then, monitor the output from pico.
+```
+screen /dev/ttyACM0 115200
 ```
 
 
@@ -64,3 +70,5 @@ wasm-objdump -x filename.wasm
 ```
 wat2wasm export.wat -o export.wasm
 ```
+
+
