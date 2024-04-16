@@ -56,6 +56,8 @@ Then, monitor the output from pico.
 screen /dev/ttyACM0 115200
 ```
 
+### Power Consumption
+Still ongoing. refer to [here](https://community.element14.com/challenges-projects/element14-presents/workbenchwednesdays/w/documents/27761/measuring-the-pi-pico-w-s-power-consumption---workbench-wednesdays-60). Will use Power Profilier Kit II (NRF-PPK2)
 
 ### Analyze WASM File
 
