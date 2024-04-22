@@ -22,7 +22,7 @@ This is a experiment for trying webassembly on raspberry pico using wasm3.
 ### Build and flash project
 - `cd ../../raspi_pico`
 - `mkdir build && cd build && cmake .. && make`
-- Copy `build/main.uf2` to your Pico USB Mass Storage Device
+- Copy `build/main.uf2` to your Pico USB Mass Storage Device  OR  sudo picotool load build/main.uf2 -f
 - Output is sent to USB serial, connect a terminal to observe
 
 
