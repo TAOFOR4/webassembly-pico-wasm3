@@ -86,6 +86,6 @@ pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/clean:
 .PHONY : pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/clean
 
 pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/depend:
-	cd /home/tao/Desktop/webassembly-pico/raspi_pico/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tao/Desktop/webassembly-pico/raspi_pico /home/tao/pico/pico-sdk/src/rp2_common/boot_stage2 /home/tao/Desktop/webassembly-pico/raspi_pico/build /home/tao/Desktop/webassembly-pico/raspi_pico/build/pico-sdk/src/rp2_common/boot_stage2 /home/tao/Desktop/webassembly-pico/raspi_pico/build/pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/tao/Desktop/webassembly-pico/raspi_pico/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tao/Desktop/webassembly-pico/raspi_pico /opt/pico/pico-sdk/src/rp2_common/boot_stage2 /home/tao/Desktop/webassembly-pico/raspi_pico/build /home/tao/Desktop/webassembly-pico/raspi_pico/build/pico-sdk/src/rp2_common/boot_stage2 /home/tao/Desktop/webassembly-pico/raspi_pico/build/pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/depend
 

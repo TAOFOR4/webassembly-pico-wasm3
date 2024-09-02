@@ -4,7 +4,7 @@
 cmake_minimum_required(VERSION 3.5)
 
 file(MAKE_DIRECTORY
-  "/home/tao/pico/pico-sdk/tools/elf2uf2"
+  "/opt/pico/pico-sdk/tools/elf2uf2"
   "/home/tao/Desktop/webassembly-pico/raspi_pico/build/elf2uf2"
   "/home/tao/Desktop/webassembly-pico/raspi_pico/build/elf2uf2"
   "/home/tao/Desktop/webassembly-pico/raspi_pico/build/elf2uf2/tmp"

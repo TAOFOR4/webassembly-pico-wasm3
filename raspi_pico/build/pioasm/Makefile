@@ -57,7 +57,7 @@ RM = /home/tao/.espressif/tools/cmake/3.24.0/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tao/pico/pico-sdk/tools/pioasm
+CMAKE_SOURCE_DIR = /opt/pico/pico-sdk/tools/pioasm
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/tao/Desktop/webassembly-pico/raspi_pico/build/pioasm

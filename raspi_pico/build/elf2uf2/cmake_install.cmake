@@ -1,4 +1,4 @@
-# Install script for directory: /home/tao/pico/pico-sdk/tools/elf2uf2
+# Install script for directory: /opt/pico/pico-sdk/tools/elf2uf2
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

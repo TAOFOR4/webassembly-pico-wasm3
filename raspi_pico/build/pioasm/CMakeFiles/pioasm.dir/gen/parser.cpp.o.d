@@ -1,7 +1,7 @@
 CMakeFiles/pioasm.dir/gen/parser.cpp.o: \
- /home/tao/pico/pico-sdk/tools/pioasm/gen/parser.cpp \
+ /opt/pico/pico-sdk/tools/pioasm/gen/parser.cpp \
  /usr/include/stdc-predef.h \
- /home/tao/pico/pico-sdk/tools/pioasm/gen/parser.hpp \
+ /opt/pico/pico-sdk/tools/pioasm/gen/parser.hpp \
  /usr/include/c++/11/string \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -153,7 +153,7 @@ CMakeFiles/pioasm.dir/gen/parser.cpp.o: \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
  /usr/include/c++/11/bits/fstream.tcc /usr/include/c++/11/sstream \
  /usr/include/c++/11/bits/sstream.tcc \
- /home/tao/pico/pico-sdk/tools/pioasm/pio_types.h /usr/include/c++/11/map \
+ /opt/pico/pico-sdk/tools/pioasm/pio_types.h /usr/include/c++/11/map \
  /usr/include/c++/11/bits/stl_tree.h \
  /usr/include/c++/11/ext/aligned_buffer.h \
  /usr/include/c++/11/bits/stl_map.h /usr/include/c++/11/tuple \
@@ -180,14 +180,14 @@ CMakeFiles/pioasm.dir/gen/parser.cpp.o: \
  /usr/include/c++/11/bits/atomic_base.h \
  /usr/include/c++/11/bits/atomic_lockfree_defines.h \
  /usr/include/c++/11/backward/auto_ptr.h \
- /home/tao/pico/pico-sdk/tools/pioasm/gen/location.h \
+ /opt/pico/pico-sdk/tools/pioasm/gen/location.h \
  /usr/include/c++/11/iostream \
- /home/tao/pico/pico-sdk/tools/pioasm/gen/location.h \
+ /opt/pico/pico-sdk/tools/pioasm/gen/location.h \
  /usr/include/c++/11/cassert /usr/include/assert.h \
- /home/tao/pico/pico-sdk/tools/pioasm/pio_assembler.h \
+ /opt/pico/pico-sdk/tools/pioasm/pio_assembler.h \
  /usr/include/c++/11/algorithm /usr/include/c++/11/bits/stl_algo.h \
  /usr/include/c++/11/bits/algorithmfwd.h \
  /usr/include/c++/11/bits/stl_heap.h \
  /usr/include/c++/11/bits/uniform_int_dist.h \
- /home/tao/pico/pico-sdk/tools/pioasm/gen/parser.hpp \
- /home/tao/pico/pico-sdk/tools/pioasm/output_format.h
+ /opt/pico/pico-sdk/tools/pioasm/gen/parser.hpp \
+ /opt/pico/pico-sdk/tools/pioasm/output_format.h

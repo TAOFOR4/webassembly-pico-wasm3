@@ -100,8 +100,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.24.0/CMakeCCompiler.cmake"
   "CMakeFiles/3.24.0/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.24.0/CMakeSystem.cmake"
-  "/home/tao/pico/pico-sdk/src/common/boot_uf2/CMakeLists.txt"
-  "/home/tao/pico/pico-sdk/tools/elf2uf2/CMakeLists.txt"
+  "/opt/pico/pico-sdk/src/common/boot_uf2/CMakeLists.txt"
+  "/opt/pico/pico-sdk/tools/elf2uf2/CMakeLists.txt"
   )
 
 # The corresponding makefile is:

@@ -78,7 +78,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/tao/.espressif/tools/cmake/3.24.0/share/cmake-3.24/Modules/Platform/UnixPaths.cmake"
   "CMakeFiles/3.24.0/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.24.0/CMakeSystem.cmake"
-  "/home/tao/pico/pico-sdk/tools/pioasm/CMakeLists.txt"
+  "/opt/pico/pico-sdk/tools/pioasm/CMakeLists.txt"
   )
 
 # The corresponding makefile is:

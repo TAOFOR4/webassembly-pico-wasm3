@@ -23,6 +23,11 @@ static void run_wasm(void)
     uint8_t *wasm = (uint8_t *)main_wasm;
     uint32_t fsize = main_wasm_len;
 
+    // printf("Insert a number...\n");
+    // int num;
+    // scanf("%d", &num);
+    // printf("The number was %d", num);
+
     printf("Loading WebAssembly...\n");
     IM3Environment env = m3_NewEnvironment();
     if (!env)
@@ -43,7 +48,7 @@ static void run_wasm(void)
 
     IM3Function f;
     // Ensure the function name matches what's exported from your WebAssembly module
-    result = m3_FindFunction(&f, runtime, "matrixMultiply");
+    result = m3_FindFunction(&f, runtime, "main");
     if (result)
         FATAL("m3_FindFunction: %s", result);
 
@@ -88,7 +93,10 @@ static void run_wasm(void)
     //     FATAL("Array parameters out of WebAssembly memory bounds");
     // }
     // result = m3_CallV(f, baseAddr, 0, arrayLength - 1); // m3_CallV(f,1,2) 1 2 stands for the parameters
-    result = m3_CallV(f, 1, 2);
+
+    // agruments for crc16
+
+    result = m3_CallV(f);
     if (result)
         FATAL("m3_Call: %s", result);
 
@@ -98,7 +106,8 @@ static void run_wasm(void)
     absolute_time_t end = get_absolute_time(); // end time count
 
     long value = *(uint64_t *)(runtime->stack);
-    printf("Result: %ld\n", value); // result(return value of the function)
+    // printf("Result: %ld\n", value); // result(return value of the function)
+    //  printf("CRC16 Checksum: %04X\n", value);
 
     // printf("Reversed Array: ");
     // for (int i = 0; i < arrayLength; ++i)
@@ -116,12 +125,11 @@ static void run_wasm(void)
 int main(void)
 {
     stdio_init_all(); // Initializes all the standard input/output interfaces
-    while (true)
-    {
-        printf("\nWasm3 v" M3_VERSION " on Raspberry Pi Pico, build " __DATE__ " " __TIME__ "\n");
 
-        run_wasm();
+    printf("\nWasm3 v" M3_VERSION " on Raspberry Pi Pico, build " __DATE__ " " __TIME__ "\n");
 
-        sleep_ms(5000); // Adjust the sleep time as needed or implement a different loop condition
-    }
+    sleep_ms(5000);
+    run_wasm();
+
+    sleep_ms(5000); // Adjust the sleep time as needed or implement a different loop condition
 }

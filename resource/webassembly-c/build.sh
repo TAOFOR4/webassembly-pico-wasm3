@@ -4,7 +4,7 @@ echo "Building WASM app..."
 $WASI_SDK_PATH/bin/clang -O3 \
     -z stack-size=4096 -Wl,--initial-memory=65536 \
     -o main.wasm main.c \
-    -Wl,--export=matrixMultiply \
+    -Wl,--export=main \
     -Wl,--strip-all -Wl,--no-entry \
     -Wl,--allow-undefined \
     -nostdlib
@@ -15,6 +15,8 @@ if [ $? -ne 0 ]; then
     exit 1
 fi
 
+# optimization for code size
+wasm-opt main.wasm -O3 -o main.wasm
 
 echo "Generate readable wasm file"
 wasm2wat main.wasm -o readable_module.wat

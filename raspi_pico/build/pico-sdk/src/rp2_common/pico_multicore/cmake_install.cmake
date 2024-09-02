@@ -1,4 +1,4 @@
-# Install script for directory: /home/tao/pico/pico-sdk/src/rp2_common/pico_multicore
+# Install script for directory: /opt/pico/pico-sdk/src/rp2_common/pico_multicore
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

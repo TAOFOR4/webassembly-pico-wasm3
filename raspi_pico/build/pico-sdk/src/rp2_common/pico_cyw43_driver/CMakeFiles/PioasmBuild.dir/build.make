@@ -89,7 +89,7 @@ pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBui
 pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-configure: pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/tmp/PioasmBuild-cache-Release.cmake
 pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-configure: pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-patch
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tao/Desktop/webassembly-pico/raspi_pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Performing configure step for 'PioasmBuild'"
-	cd /home/tao/Desktop/webassembly-pico/raspi_pico/build/pioasm && /home/tao/.espressif/tools/cmake/3.24.0/bin/cmake -DCMAKE_MAKE_PROGRAM:FILEPATH=/usr/bin/gmake "-GUnix Makefiles" -C/home/tao/Desktop/webassembly-pico/raspi_pico/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/tmp/PioasmBuild-cache-Release.cmake /home/tao/pico/pico-sdk/tools/pioasm
+	cd /home/tao/Desktop/webassembly-pico/raspi_pico/build/pioasm && /home/tao/.espressif/tools/cmake/3.24.0/bin/cmake -DCMAKE_MAKE_PROGRAM:FILEPATH=/usr/bin/gmake "-GUnix Makefiles" -C/home/tao/Desktop/webassembly-pico/raspi_pico/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/tmp/PioasmBuild-cache-Release.cmake /opt/pico/pico-sdk/tools/pioasm
 	cd /home/tao/Desktop/webassembly-pico/raspi_pico/build/pioasm && /home/tao/.espressif/tools/cmake/3.24.0/bin/cmake -E touch /home/tao/Desktop/webassembly-pico/raspi_pico/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-configure
 
 pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-download: pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-source_dirinfo.txt
@@ -139,6 +139,6 @@ pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/PioasmBuild.dir/clean:
 .PHONY : pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/PioasmBuild.dir/clean
 
 pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/PioasmBuild.dir/depend:
-	cd /home/tao/Desktop/webassembly-pico/raspi_pico/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tao/Desktop/webassembly-pico/raspi_pico /home/tao/pico/pico-sdk/src/rp2_common/pico_cyw43_driver /home/tao/Desktop/webassembly-pico/raspi_pico/build /home/tao/Desktop/webassembly-pico/raspi_pico/build/pico-sdk/src/rp2_common/pico_cyw43_driver /home/tao/Desktop/webassembly-pico/raspi_pico/build/pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/PioasmBuild.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/tao/Desktop/webassembly-pico/raspi_pico/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tao/Desktop/webassembly-pico/raspi_pico /opt/pico/pico-sdk/src/rp2_common/pico_cyw43_driver /home/tao/Desktop/webassembly-pico/raspi_pico/build /home/tao/Desktop/webassembly-pico/raspi_pico/build/pico-sdk/src/rp2_common/pico_cyw43_driver /home/tao/Desktop/webassembly-pico/raspi_pico/build/pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/PioasmBuild.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/PioasmBuild.dir/depend
 

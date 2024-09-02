@@ -231,7 +231,7 @@ CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 CMAKE_STRIP:FILEPATH=/usr/bin/arm-none-eabi-strip
 
 //The CMake toolchain file
-CMAKE_TOOLCHAIN_FILE:FILEPATH=/home/tao/pico/pico-sdk/cmake/preload/toolchains/pico_arm_gcc.cmake
+CMAKE_TOOLCHAIN_FILE:FILEPATH=/opt/pico/pico-sdk/cmake/preload/toolchains/pico_arm_gcc.cmake
 
 //If this value is on, makefiles will be generated without the
 // .SILENT directive, and all commands will be echoed to the console
@@ -288,7 +288,7 @@ PICO_SDK_FETCH_FROM_GIT:BOOL=
 PICO_SDK_FETCH_FROM_GIT_PATH:FILEPATH=
 
 //Path to the Raspberry Pi Pico SDK
-PICO_SDK_PATH:PATH=/home/tao/pico/pico-sdk
+PICO_SDK_PATH:PATH=/opt/pico/pico-sdk
 
 //Globally enable stdio semi-hosting
 PICO_STDIO_SEMIHOSTING:BOOL=OFF
@@ -309,7 +309,7 @@ pico_sdk_BINARY_DIR:STATIC=/home/tao/Desktop/webassembly-pico/raspi_pico/build/p
 pico_sdk_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
-pico_sdk_SOURCE_DIR:STATIC=/home/tao/pico/pico-sdk
+pico_sdk_SOURCE_DIR:STATIC=/opt/pico/pico-sdk
 
 //Value Computed by CMake
 wasm3_BINARY_DIR:STATIC=/home/tao/Desktop/webassembly-pico/raspi_pico/build
@@ -494,15 +494,15 @@ DOXYGEN_EXECUTABLE-ADVANCED:INTERNAL=1
 FAMILY_MCUS:INTERNAL=RP2040
 //Details about finding Python3
 FIND_PACKAGE_MESSAGE_DETAILS_Python3:INTERNAL=[/home/tao/.espressif/python_env/idf5.2_py3.10_env/bin/python3.10][cfound components: Interpreter ][v3.10.12()]
-PICO_BOOT_STAGE2_DIR:INTERNAL=/home/tao/pico/pico-sdk/src/rp2_common/boot_stage2
-PICO_CMAKE_PRELOAD_PLATFORM_DIR:INTERNAL=/home/tao/pico/pico-sdk/cmake/preload/platforms
-PICO_CMAKE_PRELOAD_PLATFORM_FILE:INTERNAL=/home/tao/pico/pico-sdk/cmake/preload/platforms/rp2040.cmake
+PICO_BOOT_STAGE2_DIR:INTERNAL=/opt/pico/pico-sdk/src/rp2_common/boot_stage2
+PICO_CMAKE_PRELOAD_PLATFORM_DIR:INTERNAL=/opt/pico/pico-sdk/cmake/preload/platforms
+PICO_CMAKE_PRELOAD_PLATFORM_FILE:INTERNAL=/opt/pico/pico-sdk/cmake/preload/platforms/rp2040.cmake
 PICO_COMPILER_ASM:INTERNAL=/usr/bin/arm-none-eabi-gcc
-PICO_DOXYGEN_EXCLUDE_PATHS:INTERNAL= /home/tao/pico/pico-sdk/src/rp2_common/cmsis /home/tao/pico/pico-sdk/src/rp2040/hardware_regs /home/tao/pico/pico-sdk/src/rp2_common/cmsis /home/tao/pico/pico-sdk/src/rp2040/hardware_regs /home/tao/pico/pico-sdk/src/rp2_common/cmsis /home/tao/pico/pico-sdk/src/rp2040/hardware_regs /home/tao/pico/pico-sdk/src/rp2_common/cmsis /home/tao/pico/pico-sdk/src/rp2040/hardware_regs /home/tao/pico/pico-sdk/src/rp2_common/cmsis /home/tao/pico/pico-sdk/src/rp2040/hardware_regs /home/tao/pico/pico-sdk/src/rp2_common/cmsis /home/tao/pico/pico-sdk/src/rp2040/hardware_regs /home/tao/pico/pico-sdk/src/rp2_common/cmsis /home/tao/pico/pico-sdk/src/rp2040/hardware_regs /home/tao/pico/pico-sdk/src/rp2_common/cmsis /home/tao/pico/pico-sdk/src/rp2040/hardware_regs /home/tao/pico/pico-sdk/src/rp2_common/cmsis /home/tao/pico/pico-sdk/src/rp2040/hardware_regs /home/tao/pico/pico-sdk/src/rp2_common/cmsis /home/tao/pico/pico-sdk/src/rp2040/hardware_regs /home/tao/pico/pico-sdk/src/rp2_common/cmsis /home/tao/pico/pico-sdk/src/rp2040/hardware_regs /home/tao/pico/pico-sdk/src/rp2_common/cmsis /home/tao/pico/pico-sdk/src/rp2040/hardware_regs /home/tao/pico/pico-sdk/src/rp2_common/cmsis /home/tao/pico/pico-sdk/src/rp2040/hardware_regs /home/tao/pico/pico-sdk/src/rp2_common/cmsis /home/tao/pico/pico-sdk/src/rp2040/hardware_regs /home/tao/pico/pico-sdk/src/rp2_common/cmsis /home/tao/pico/pico-sdk/src/rp2040/hardware_regs /home/tao/pico/pico-sdk/src/rp2_common/cmsis /home/tao/pico/pico-sdk/src/rp2040/hardware_regs /home/tao/pico/pico-sdk/src/rp2_common/cmsis /home/tao/pico/pico-sdk/src/rp2040/hardware_regs /home/tao/pico/pico-sdk/src/rp2_common/cmsis /home/tao/pico/pico-sdk/src/rp2040/hardware_regs /home/tao/pico/pico-sdk/src/rp2_common/cmsis /home/tao/pico/pico-sdk/src/rp2040/hardware_regs /home/tao/pico/pico-sdk/src/rp2_common/cmsis /home/tao/pico/pico-sdk/src/rp2040/hardware_regs /home/tao/pico/pico-sdk/src/rp2_common/cmsis /home/tao/pico/pico-sdk/src/rp2040/hardware_regs /home/tao/pico/pico-sdk/src/rp2_common/cmsis /home/tao/pico/pico-sdk/src/rp2040/hardware_regs /home/tao/pico/pico-sdk/src/rp2_common/cmsis /home/tao/pico/pico-sdk/src/rp2040/hardware_regs /home/tao/pico/pico-sdk/src/rp2_common/cmsis /home/tao/pico/pico-sdk/src/rp2040/hardware_regs /home/tao/pico/pico-sdk/src/rp2_common/cmsis /home/tao/pico/pico-sdk/src/rp2040/hardware_regs /home/tao/pico/pico-sdk/src/rp2_common/cmsis /home/tao/pico/pico-sdk/src/rp2040/hardware_regs /home/tao/pico/pico-sdk/src/rp2_common/cmsis /home/tao/pico/pico-sdk/src/rp2040/hardware_regs /home/tao/pico/pico-sdk/src/rp2_common/cmsis /home/tao/pico/pico-sdk/src/rp2040/hardware_regs /home/tao/pico/pico-sdk/src/rp2_common/cmsis /home/tao/pico/pico-sdk/src/rp2040/hardware_regs /home/tao/pico/pico-sdk/src/rp2_common/cmsis /home/tao/pico/pico-sdk/src/rp2040/hardware_regs /home/tao/pico/pico-sdk/src/rp2_common/cmsis /home/tao/pico/pico-sdk/src/rp2040/hardware_regs /home/tao/pico/pico-sdk/src/rp2_common/cmsis /home/tao/pico/pico-sdk/src/rp2040/hardware_regs /home/tao/pico/pico-sdk/src/rp2_common/cmsis /home/tao/pico/pico-sdk/src/rp2040/hardware_regs /home/tao/pico/pico-sdk/src/rp2_common/cmsis /home/tao/pico/pico-sdk/src/rp2040/hardware_regs /home/tao/pico/pico-sdk/src/rp2_common/cmsis /home/tao/pico/pico-sdk/src/rp2040/hardware_regs /home/tao/pico/pico-sdk/src/rp2_common/cmsis /home/tao/pico/pico-sdk/src/rp2040/hardware_regs /home/tao/pico/pico-sdk/src/rp2_common/cmsis /home/tao/pico/pico-sdk/src/rp2040/hardware_regs /home/tao/pico/pico-sdk/src/rp2_common/cmsis /home/tao/pico/pico-sdk/src/rp2040/hardware_regs /home/tao/pico/pico-sdk/src/rp2_common/cmsis /home/tao/pico/pico-sdk/src/rp2040/hardware_regs /home/tao/pico/pico-sdk/src/rp2_common/cmsis /home/tao/pico/pico-sdk/src/rp2040/hardware_regs /home/tao/pico/pico-sdk/src/rp2_common/cmsis /home/tao/pico/pico-sdk/src/rp2040/hardware_regs /home/tao/pico/pico-sdk/src/rp2_common/cmsis /home/tao/pico/pico-sdk/src/rp2040/hardware_regs /home/tao/pico/pico-sdk/src/rp2_common/cmsis /home/tao/pico/pico-sdk/src/rp2040/hardware_regs /home/tao/pico/pico-sdk/src/rp2_common/cmsis /home/tao/pico/pico-sdk/src/rp2040/hardware_regs /home/tao/pico/pico-sdk/src/rp2_common/cmsis /home/tao/pico/pico-sdk/src/rp2040/hardware_regs /home/tao/pico/pico-sdk/src/rp2_common/cmsis /home/tao/pico/pico-sdk/src/rp2040/hardware_regs /home/tao/pico/pico-sdk/src/rp2_common/cmsis /home/tao/pico/pico-sdk/src/rp2040/hardware_regs /home/tao/pico/pico-sdk/src/rp2_common/cmsis /home/tao/pico/pico-sdk/src/rp2040/hardware_regs /home/tao/pico/pico-sdk/src/rp2_common/cmsis /home/tao/pico/pico-sdk/src/rp2040/hardware_regs
-PICO_DOXYGEN_PATHS:INTERNAL= /home/tao/pico/pico-sdk/src/common /home/tao/pico/pico-sdk/lib/cyw43-driver/src /home/tao/pico/pico-sdk/src/rp2_common /home/tao/pico/pico-sdk/src/rp2040
+PICO_DOXYGEN_EXCLUDE_PATHS:INTERNAL= /opt/pico/pico-sdk/src/rp2_common/cmsis /opt/pico/pico-sdk/src/rp2040/hardware_regs /opt/pico/pico-sdk/src/rp2_common/cmsis /opt/pico/pico-sdk/src/rp2040/hardware_regs /opt/pico/pico-sdk/src/rp2_common/cmsis /opt/pico/pico-sdk/src/rp2040/hardware_regs /opt/pico/pico-sdk/src/rp2_common/cmsis /opt/pico/pico-sdk/src/rp2040/hardware_regs /opt/pico/pico-sdk/src/rp2_common/cmsis /opt/pico/pico-sdk/src/rp2040/hardware_regs /opt/pico/pico-sdk/src/rp2_common/cmsis /opt/pico/pico-sdk/src/rp2040/hardware_regs /opt/pico/pico-sdk/src/rp2_common/cmsis /opt/pico/pico-sdk/src/rp2040/hardware_regs
+PICO_DOXYGEN_PATHS:INTERNAL= /opt/pico/pico-sdk/src/common /opt/pico/pico-sdk/lib/cyw43-driver/src /opt/pico/pico-sdk/src/rp2_common /opt/pico/pico-sdk/src/rp2040
 PICO_NO_HARDWARE:INTERNAL=0
 PICO_ON_DEVICE:INTERNAL=1
-PICO_PLATFORM_CMAKE_FILE:INTERNAL=/home/tao/pico/pico-sdk/src/rp2040.cmake
+PICO_PLATFORM_CMAKE_FILE:INTERNAL=/opt/pico/pico-sdk/src/rp2040.cmake
 //Enable build of SDK tests
 PICO_SDK_TESTS_ENABLED:INTERNAL=
 PICO_TOOLCHAIN_PATH:INTERNAL=
